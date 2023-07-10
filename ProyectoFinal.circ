@@ -25,7 +25,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Nico Pedraza\Documents\Facultad\Tercer_Año\Modulo5\Arquitectura y Organización De Computadoras\Proyecto Final\Protecto-Arqui\MIC-1.circ" name="7"/>
+  <lib desc="file#MIC-1.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
