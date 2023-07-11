@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.7.1" version="1.0">
 This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
-<lib desc="#Wiring" name="0"/>
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="incoming" val="4"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="1"/>
+    </tool>
+  </lib>
   <lib desc="#Gates" name="1">
     <tool name="Controlled Buffer">
       <a name="facing" val="south"/>
@@ -25,7 +32,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#MIC-1.circ" name="7"/>
+  <lib desc="file#MIC-1.circ" name="7">
+    <tool name="ALU 1 bit">
+      <a name="facing" val="south"/>
+    </tool>
+  </lib>
+  <lib desc="file#C:\Users\mauri\OneDrive\Documentos\Facultad\3ero\Arquitectura y organizacion de computadoras\logisim\circuitos\Ejer6y7.circ" name="8"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
